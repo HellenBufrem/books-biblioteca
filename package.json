@@ -1,0 +1,23 @@
+{
+  "name": "books-biblioteca",
+  "version": "1.0.0",
+  "description": "Este projeto tem como objetivo, ser uma aplicação web que tem a funcionalidade de armazenar livros lidos pelo usuário, servindo realmente como uma biblioteca virtual, podendo marcar quantas páginas foram lidas, e o status de leitura.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HellenBufrem/books-biblioteca.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HellenBufrem/books-biblioteca/issues"
+  },
+  "homepage": "https://github.com/HellenBufrem/books-biblioteca#readme",
+  "dependencies": {
+    "jquery": "^3.7.1"
+  }
+}
