@@ -1,0 +1,119 @@
+:root {
+    --primary-color: #006064; /* Verde-azulado escuro */
+    --secondary-color: #FF5722; /* Laranja */
+    --tertiary-color: #9C27B0; /* Roxo/Lilás */
+    --light-color: #f8f9fa;
+    --gray-color: #6c757d;
+    --dark-color: #333;
+}
+
+body {
+    font-family: 'Roboto', 'Open Sans', sans-serif;
+    color: var(--dark-color);
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+.top-bar {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 8px 0;
+    font-size: 0.9rem;
+}
+
+.top-bar a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.navbar {
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+}
+
+.logo {
+    height: 50px;
+}
+
+.search-bar {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.search-bar .form-control {
+    border-radius: 4px 0 0 4px;
+    border: 1px solid #ddd;
+}
+
+.search-bar .btn {
+    border-radius: 0 4px 4px 0;
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.navbar-nav .nav-link {
+    color: var(--dark-color);
+    font-weight: 500;
+    margin: 0 10px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--primary-color);
+}
+
+.user-actions a {
+    color: var(--dark-color);
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+/* Menu de categorias */
+.categories-menu {
+    background-color: var(--primary-color);
+    padding: 10px 0;
+}
+
+.categories-menu .nav-link {
+    color: white;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 4px;
+}
+
+@media (max-width: 991.98px) {
+    .navbar .input-group {
+        min-width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .navbar .btn-outline-primary {
+        width: 100%;
+    }
+}
+
+/* Estilização do botão hamburguer */
+.navbar-toggler {
+    border-color: var(--primary-color);
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' fill='%23006064' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 96, 100, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.categories-menu {
+  background-color: var(--primary-color);
+  padding: 10px 0;
+}
+
+.categories-menu .navbar-toggler {
+  border-color: #fff;
+}
+
+.categories-menu .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' fill='white' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}

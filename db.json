@@ -1,0 +1,46 @@
+{
+  "usuarios": [],
+  "livros": [
+    {
+      "id": "1",
+      "titulo": "Relatos de um gato viajante",
+      "autor": "Hiro Arikawa",
+      "imagem": "https://res.cloudinary.com/dnatxacxq/image/upload/v1749944852/81a9krs52mL._SY342__ffr3el.jpg",
+      "dataLeitura": "10/03/2025",
+      "avaliacao": 4
+    },
+    {
+      "id": "2",
+      "titulo": "1984",
+      "autor": "George Orwell",
+      "imagem": "https://res.cloudinary.com/dnatxacxq/image/upload/v1749944004/1984_lbukam.jpg",
+      "dataLeitura": "05/02/2024",
+      "avaliacao": 5
+    },
+    {
+      "id": "3",
+      "titulo": "Dom Quixote",
+      "autor": "Miguel de Cervantes",
+      "imagem": "https://res.cloudinary.com/dnatxacxq/image/upload/v1749944094/download_h33usy.webp",
+      "dataLeitura": "20/01/2025",
+      "avaliacao": 3
+    },
+    {
+      "id": "4",
+      "titulo": "Cem Anos de Solidão",
+      "autor": "Gabriel García Márquez",
+      "imagem": "https://res.cloudinary.com/dnatxacxq/image/upload/v1749944219/shopping_at1se7.webp",
+      "dataLeitura": "15/12/2024",
+      "avaliacao": 4.5
+    },
+    {
+      "id": "e896",
+      "titulo": "As quatro rainhas mortas",
+      "autor": "Astrid Scholte",
+      "genero": "fantasia",
+      "dataLeitura": "24/05/2025",
+      "avaliacao": 5,
+      "comentario": "a",
+      "imagem": "https://m.media-amazon.com/images/I/51EkDvzy4hL._SY445_SX342_PQ95_.jpg"
+    }]
+}
