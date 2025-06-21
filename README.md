@@ -1,4 +1,4 @@
-# roubank-css 
+# books - biblioteca virtual
 ### *Autor:* Hellen Vitoria Bufrem Passsos
 Este projeto tem como objetivo, ser uma aplicação web que tem a funcionalidade de armazenar livros lidos pelo usuário, servindo realmente como uma biblioteca virtual, podendo marcar quantas páginas foram lidas, e o status de leitura.
 
@@ -8,7 +8,7 @@ O frontend da aplicação foi desenvolvido com HTML, CSS e JavaScript e o backen
 https://www.figma.com/design/JAyV50skbvBAjIokKhxyhv/books?node-id=0-1&t=4Wjvk8OPqMNQ5GGC-1
 
 ## Design System: 
-file:///C:/Users/Notbook/Downloads/booksHellen_Vitoria_decis%C3%B5es%20_design_system%20(1).pdf
+https://www.figma.com/design/JAyV50skbvBAjIokKhxyhv/books?node-id=19-761&t=pRwI7SV06AG3L2gp-1
 
 ## Site em Produção - GitHub Pages
 **https://utfpr-gp.github.io/roubank-css/
