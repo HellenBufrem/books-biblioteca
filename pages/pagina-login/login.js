@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         setTimeout(() => {
           modal.hide();
-          window.location.href = "/books-biblioteca/pages/pagina-estante/estante.html";
+          window.location.href = "/pages/pagina-estante/estante.html";
         }, 2500);
       } else {
         mostrarErro(email, "Email ou senha inválidos.");

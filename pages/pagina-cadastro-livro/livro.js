@@ -32,7 +32,7 @@ document.getElementById("cadastroLivroForm").addEventListener("submit", async fu
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(novoLivro)
     });
-    window.location.href = "/books-biblioteca/pages/pagina-estante/estante.html";
+    window.location.href = "/pages/pagina-estante/estante.html";
   } catch (err) {
     console.error("Erro ao salvar livro:", err);
     alert("Erro ao cadastrar livro.");

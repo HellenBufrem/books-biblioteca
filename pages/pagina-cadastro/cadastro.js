@@ -99,7 +99,7 @@ document.addEventListener("DOMContentLoaded", () => {
       if (!cadastro.ok) throw new Error("Erro ao cadastrar usuário.");
 
       // ✅ Redirecionamento direto para a tela de login
-      window.location.href = "/books-biblioteca/pages/pagina-login/login.html";
+      window.location.href = "/pages/pagina-login/login.html";
 
     } catch (err) {
       console.error("Erro ao cadastrar:", err);
