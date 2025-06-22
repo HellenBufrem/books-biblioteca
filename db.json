@@ -1,22 +1,5 @@
 {
-  "usuarios": [
-    {
-      "id": "baab",
-      "nome": "hellen vitoria",
-      "username": "HellenBufrem",
-      "email": "hellen@mail.com",
-      "senha": "Hellenvitori@29",
-      "dataNascimento": "2006-05-29"
-    },
-    {
-      "id": "d9fe",
-      "nome": "hellen vitoria",
-      "username": "HellenBufrem",
-      "email": "hellen@mail.com123",
-      "senha": "Hellenvitori@29",
-      "dataNascimento": "2006-05-29"
-    }
-  ],
+  "usuarios": [],
   "livros": [
     {
       "id": "1",
