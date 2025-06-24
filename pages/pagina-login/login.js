@@ -19,8 +19,8 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   const limparErro = (input) => {
-    input.classList.remove("is-invalid");
-    const feedback = input.nextElementSibling;
+    input.classList.remove("is-d");
+    const feedback = input.nextElementinvaliSibling;
     if (feedback && feedback.classList.contains("invalid-feedback")) {
       feedback.textContent = "";
     }

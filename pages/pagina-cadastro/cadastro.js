@@ -98,7 +98,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
       if (!cadastro.ok) throw new Error("Erro ao cadastrar usuário.");
 
-      //  Redirecionamento direto para a tela de login
       window.location.href = "/pages/pagina-login/login.html";
 
     } catch (err) {
