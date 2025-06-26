@@ -22,19 +22,18 @@ Bootstrap
 ## Checklist | Indicadores de Desempenho (ID) dos Resultados de Aprendizagem (RA)
 
 RA1 - Utilizar Frameworks CSS para estilização de elementos HTML e criação de layouts responsivos
-
- [] ID 00 - Prototipa interfaces adaptáveis para no mínimo os tamanhos de tela mobile e desktop, usando ferramentas de design como Figma, Quant UX ou Sketch.
- []ID 01 - Implementa um layout responsivo utilizando um Framework CSS (Bootstrap, Materialize, Tailwind com DaisyUI), com Flexbox ou Grid.
- [] ID 02 - Utiliza técnica de responsividade nativa de CSS como Flexbox ou Grid Layout.
- [] ID 03 - Utiliza componentes CSS (ex. card, button) e JavaScript (ex. modal, carrossel) oferecidos por um Framework CSS.
- [] ID 04 - Implementa layout fluido com unidades relativas (vw, vh, %, em, rem) ao invés de unidades fixas (px).
- [] ID 05 - Implementa animações (fadeIn, fadeOut, slideIn, slideOut) com CSS Animations, Animate.css ou jQuery.
- ~[ ] ID 06 - Cria transições personalizadas com CSS Transitions ou CSS Animation. // Não é necessário!
- [] ID 07 - Aplica um Design System consistente com diretrizes de estilo, cores, tipografia e padrões de componentes.
- [] ID 08 - Implementa pré-processadores CSS (ex: Sass), com variáveis, mixins e funções.
- [] ID 09 - Aplica tipografia responsiva com media queries ou clamp(), usando unidades como rem, em ou vw.
- [] ID 10 - Aplica responsividade em imagens com object-fit e containers com vh, %, rem.
- [] ID 11 - Otimiza imagens com WebP, srcset, <picture> ou URLs com Cloudinary (w_, h_, f_auto, q_auto).
+ [x] ID 00 - Prototipa interfaces adaptáveis para no mínimo os tamanhos de tela mobile e desktop, usando ferramentas de design como Figma, Quant UX ou Sketch.
+ ID 01 - Implementa um layout responsivo utilizando um Framework CSS (Bootstrap, Materialize, Tailwind com DaisyUI), com Flexbox ou Grid.
+ ID 02 - Utiliza técnica de responsividade nativa de CSS como Flexbox ou Grid Layout.
+ ID 03 - Utiliza componentes CSS (ex. card, button) e JavaScript (ex. modal, carrossel) oferecidos por um Framework CSS.
+ ID 04 - Implementa layout fluido com unidades relativas (vw, vh, %, em, rem) ao invés de unidades fixas (px).
+ ID 05 - Implementa animações (fadeIn, fadeOut, slideIn, slideOut) com CSS Animations, Animate.css ou jQuery.
+[ ] ID 06 - Cria transições personalizadas com CSS Transitions ou CSS Animation. // Não é necessário!
+ ID 07 - Aplica um Design System consistente com diretrizes de estilo, cores, tipografia e padrões de componentes.
+ ID 08 - Implementa pré-processadores CSS (ex: Sass), com variáveis, mixins e funções.
+ ID 09 - Aplica tipografia responsiva com media queries ou clamp(), usando unidades como rem, em ou vw.
+ ID 10 - Aplica responsividade em imagens com object-fit e containers com vh, %, rem.
+ ID 11 - Otimiza imagens com WebP, srcset, <picture> ou URLs com Cloudinary (w_, h_, f_auto, q_auto).
  
 RA2 - Tratamento de formulários e validações no lado cliente com HTML API e REGEX
  ID 12 - Implementa validação no lado cliente com mensagens de erro ou sucesso, usando a API do HTML.
