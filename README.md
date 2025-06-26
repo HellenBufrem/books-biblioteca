@@ -11,7 +11,6 @@ https://www.figma.com/design/JAyV50skbvBAjIokKhxyhv/books?node-id=0-1&t=4Wjvk8OP
 https://www.figma.com/design/JAyV50skbvBAjIokKhxyhv/books?node-id=19-761&t=pRwI7SV06AG3L2gp-1
 
 ## Site em Produção - GitHub Pages
-https://github.com/HellenBufrem/books-biblioteca.git
 
 ## Framework CSS
 Bootstrap
