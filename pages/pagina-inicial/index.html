@@ -10,8 +10,8 @@
 
   <!-- CSS personalizado -->
   <link rel="stylesheet" href="inicial.css" />
-  <link rel="stylesheet" href="/components/header/header.css" />
-  <link rel="stylesheet" href="/components/footer/footer.css" />
+  <link rel="stylesheet" href="../../components/header/header.css" />
+  <link rel="stylesheet" href="../../components/footer/footer.css" />
 
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
@@ -23,7 +23,7 @@
   <!-- HEADER -->
   <div id="header"></div>
   <script>
-    fetch("/components/header/header.html")
+    fetch("../../components/header/header.html")
       .then(response => response.text())
       .then(data => {
         document.getElementById("header").innerHTML = data;
@@ -52,7 +52,7 @@
           <li>Visualizar estatísticas sobre seus hábitos de leitura</li>
           <li>Organizar sua biblioteca virtual de forma personalizada</li>
         </ul>
-        <a href="/pages/pagina-cadastro/cadastro.html" class="btn btn-secondary mt-3">Cadastre-se Gratuitamente</a>
+        <a href="../pagina-cadastro/cadastro.html" class="btn btn-secondary mt-3">Cadastre-se Gratuitamente</a>
       </div>
       <div class="col-md-6">
         <img src="https://res.cloudinary.com/dnatxacxq/image/upload/v1749943171/books_logo_igg64v.png" alt="Sobre a Biblioteca Virtual" class="img-fluid rounded" />
@@ -103,7 +103,7 @@
   <!-- FOOTER -->
   <div id="footer"></div>
   <script>
-    fetch("/components/footer/footer.html")
+    fetch("../../components/footer/footer.html")
       .then(res => res.text())
       .then(data => {
         document.getElementById("footer").innerHTML = data;
